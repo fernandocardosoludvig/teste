@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500;700&display=swap');
+:root {
+    --brancoPmf: #ffffff;
+    --pretoPmf: black;
+    --azulPmfEscuro: #002f66;
+    --azulPmfClaro: #0093d4;
+    --azulPmfClaro_1: #00B1EB;
+    --marromMinhoca: #6D4426;
+    --verdeMinhoca: #95BA3E;
+	--vermelhoMinhoca: #DE4726;
+    --cinzaMinhoca: #F8F8F8;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--brancoPmf);
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.logo-header-darkened {
+    filter: brightness(0.1);
+}
+
+.logo-header {
+    width: 130px;
+    height: 50px;
+}
+
+nav {
+    text-align: right;
+}
+
+.sobre {
+    color: var(--verdeMinhoca);
+    margin-right: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inscricao-button {
+    background-color: var(--verdeMinhoca);
+    width: 109px;
+    height: 51px;
+    border-radius: 8px;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 1px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.fazerlogin-button {
+    width: 115px;
+    height: 51px;
+    color: var(--verdeMinhoca);
+    border-color: var(--verdeMinhoca);
+    background-color: white;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.container {
+    position: relative; /* Colocar a imagem atrás */
+}
+
+.banner {
+    position: absolute; /* Colocar a imagem atrás */
+    width: 100%;
+}
+
+#texto {
+    position: absolute;
+    left: 170px;
+    top: 35px;
+    font-size: 7.1rem;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.1; /* Reduza o espaçamento entre as linhas */
+}
+
+mark {
+    background-color: var(--marromMinhoca);
+    color: white;
+    font-size: 40px;
+    padding: 7px 16px 7px 16px;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 8%;
+    
+}
+.kits {
+    background-color: var(--verdeMinhoca);
+    border-radius: 24px;
+    color: var(--brancoPmf);
+    height: 200px;
+    width: 320px; /* Ajuste a largura conforme necessário */
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 49%;
+
+}
+
+.kits h1 {
+    font-size: 3.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.kits h2 {
+    font-size: 1.6rem;
+    margin-bottom: -1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.tonelada {
+    background-color: var(--verdeMinhoca);
+    border-radius: 24px;
+    color: var(--brancoPmf);
+    height: 200px;
+    width: 400px; /* Ajuste a largura conforme necessário */
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 49%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tonelada h1 {
+    font-size: 3.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tonelada h2 {
+    font-size: 1.6rem;
+    margin-bottom: -1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.economia {
+    background-color: var(--verdeMinhoca);
+    border-radius: 24px;
+    color: var(--brancoPmf);
+    height: 200px;
+    width: 400px; /* Ajuste a largura conforme necessário */
+    text-align: center;
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-top: 49%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.economia h1 {
+    font-size: 3.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.economia h2 {
+    font-size: 1.6rem;
+    margin-bottom: -1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.menor {
+    font-size: 0.5em; /* Tamanho de fonte menor (ajuste o valor conforme necessário) */
+}
+
+.secao02 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+}
+
+.texto {
+    max-width: 40%; /* Ajuste a largura do texto conforme necessário */
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+
+.texto h1 b {
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.texto b {
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.img2 {
+margin-right: 12%;
+}
+.secao03{
+    background-color: var(--cinzaMinhoca);
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 11%;
+    border-radius: 24px;
+    margin-top: 2%;
+}
+.responsabilidade {
+    margin: 10px;
+    max-width: 95%;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.responsabilidade h1 b{
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+.responsabilidade b{
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.responsabilidade p{
+    color: #565656;
+}
+.secao04 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+}
+.horta{
+    margin-right: 30px;
+}
+.ganhos h1 b{
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+.ganhos b{
+    color: var(--marromMinhoca);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.ganhos{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #565656;
+    margin-right: 12% ;
+    max-width: 50%;
+
+}
+.secao05{
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+}
+
+.img3{
+    margin-right: 12%;
+
+}
+
+
+/* Estilos do footer */
+footer {
+    background-color: var(--brancoPmf); /* Fundo branco */
+    margin-top: 50px;
+    padding-bottom: 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1); /* Sombreamento na parte inferior */
+    padding-bottom: 40px;
+}
+
+.footer-logo img {
+    width: 200px; /* Tamanho da sua logo */
+    height: auto; /* Para manter a proporção */
+    left: 150px;
+    position: relative;
+}
+
+.footer-links {
+    text-align: right; /* Alinhar o texto à direita */
+    right: 210px;
+    position: relative;
+    font-family:'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 1.0rem;
+
+}
+
+.footer-links p {
+    margin: 16px 0; /* Espaçamento entre os links */
+    color: #565656;
+}
+
